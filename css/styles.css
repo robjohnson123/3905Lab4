@@ -5,7 +5,37 @@
 
 body {
   background: #fcc;
+  margin: 0;
 }
+
+.menu {
+  background-color: #808080;
+  line-height: 2em;
+  color: #000000;
+  font-family: sans-serif;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.open {
+  display: flex;
+}
+/*.menu:hover + nav, nav:hover {
+  display: flex;
+}*/
+h1 {
+  font-family: sans-serif;
+}
+nav {
+ display: none;
+ flex-direction: column;
+ justify-content: space-evenly;
+ }
+ nav a {
+   text-decoration: none;
+   font-family: sans-serif;
+ }
+
 
 
 
@@ -18,14 +48,19 @@ body {
   body {
     background: #cfc;
   }
+
+
+ nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  }
+
+.menu {
+  display: none;
 }
 
-  nav {
-    flex-direction: column;
-
 }
-
-
 /* DESKTOP STYLES */
 
 @media screen and (min-width: 1000px) {
